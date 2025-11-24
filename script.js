@@ -8,6 +8,6 @@ function diceCount() {
   var intMod = parseInt(document.getElementById("intMod").value);
   var diceNum = document.getElementById("diceNum");
 
-  diceNum.innerText = toString(((D20 * 3)/2 + constMod + strengthMod + dexMod + charMod + wisMod + intMod) * 0.75)
+  diceNum.innerText = (((D20 * 3)/2 + constMod + strengthMod + dexMod + charMod + wisMod + intMod) * 0.75).toString();
 
 }
