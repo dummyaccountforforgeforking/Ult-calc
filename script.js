@@ -1,4 +1,4 @@
-(function () {
+function diceCount() {
   var D20 = parseInt(document.getElementById("D20").value);
   var constMod = parseInt(document.getElementById("constMod").value);
   var strengthMod = parseInt(document.getElementById("strengthMod").value);
